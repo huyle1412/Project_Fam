@@ -1,0 +1,155 @@
+.type-003 .container-bacrow {
+  background: #3B3B3B;
+  color: #999;
+  padding: 50px 0;
+  padding-bottom: 30;
+}
+.type-003 h5 {
+  color: #DBDBDB;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid #6B6B6B;
+  padding: 0 25px 10px 0;
+  margin-bottom: -1px;
+  display: inline-block;
+}
+.type-003 .title {
+  border-bottom: 1px solid #464646;
+  margin-bottom: 20px;
+}
+.type-003 .content {
+  padding-top: 6px;
+  width: 220px;
+  color: #999;
+  font: 12px/18px Arial, sans-serif;
+}
+.type-003 .caption a {
+  text-decoration: none;
+  color: #999;
+  padding: 5px;
+  font: 12px/18px Arial, sans-serif;
+}
+.type-003 .caption a:hover {
+  color: #FFF;
+}
+.type-003 .list-unstyled i:hover {
+  color: #FFF;
+}
+.type-003 .entries {
+  border-top: 1px solid #464646;
+  padding: 6px 0;
+  padding-left: 1px;
+  font-size: 13px;
+}
+.type-003 .comments {
+  border-top: 1px solid #464646;
+  padding: 6px 0;
+  padding-left: 1px;
+  font-size: 13px;
+}
+.type-003 .wordpress {
+  border-top: 1px solid #464646;
+  padding: 6px 0;
+  padding-left: 1px;
+  font-size: 13px;
+}
+.type-003 .login {
+  padding: 6px 0;
+  padding-left: 1px;
+  font-size: 13px;
+}
+.type-003 .icon:hover {
+  color: #FFF;
+}
+.type-003 .images-list {
+  margin-top: 22px;
+  margin-left: -5px;
+}
+.type-003 .images-list img {
+  width: 50px;
+  opacity: .7;
+}
+.type-003 .images-list img:hover {
+  opacity: 1;
+}
+.type-003 .images {
+  padding-top: 5px;
+}
+.type-003 .contact {
+  color: #999;
+}
+.type-003 .address {
+  height: 48px;
+  border-bottom: 1px solid #464646;
+}
+.type-003 .phone {
+  border-bottom: 1px solid #464646;
+}
+.type-003 .email {
+  border-bottom: 1px solid #464646;
+}
+.type-003 .caption {
+  display: inline-block;
+  color: #6B6B6B;
+  width: 100%;
+}
+.type-003 .icon {
+  font-size: 16px;
+}
+.type-003 h2 {
+  font-size: 11px;
+}
+.type-003 .homeicon {
+  line-height: 17px;
+}
+.type-003 .address {
+  padding: 0px 0 10px 0px;
+}
+.type-003 .phone {
+  padding: 10px 0 10px 0px;
+}
+.type-003 .email {
+  padding: 10px 0 10px 0px;
+}
+.type-003 .flag {
+  padding: 10px 0 10px 0px;
+}
+.type-003 .container-bottom {
+  padding: 16px 0 14px;
+  background: #333;
+}
+.type-003 .menu-footer {
+  float: left;
+  padding-right: 35px;
+}
+.type-003 .menu-footer a {
+  color: #777;
+  font-size: 11px;
+}
+.type-003 .menu-footer a:hover {
+  text-decoration: none;
+  color: #FFF;
+}
+.type-003 .note {
+  border-left: 1px solid #777;
+  padding-left: 10px;
+}
+.type-003 .rbSocial.icons li {
+  margin-left: 12px;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  height: 18px;
+  display: inline;
+}
+.type-003 .rbSocial.icons a {
+  font-size: 16px;
+  color: #777;
+  position: relative;
+  width: 100%;
+  height: 18px;
+}
+.type-003 #text-3 {
+  float: right;
+}
