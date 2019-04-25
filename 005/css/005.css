@@ -1,0 +1,66 @@
+.type-005 .header header#lms_header .navbar-wrapper nav.navbar-fixed-top {
+  margin-top: 30px;
+}
+.type-005 .header header#lms_header .navbar-wrapper nav.navbar-fixed-top div#navbar {
+  background: #FFFAE6;
+}
+.type-005 .header header#lms_header .navbar-wrapper nav.navbar-fixed-top div#navbar ul.nav.navbar-nav {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  padding: 40px 0px;
+}
+.type-005 .header header#lms_header .navbar-wrapper nav.navbar-fixed-top div#navbar ul.nav.navbar-nav li.logo {
+  padding: 10px 70px 0 0;
+}
+.type-005 .header header#lms_header .navbar-wrapper nav.navbar-fixed-top div#navbar ul.nav.navbar-nav li.logo img.img-responsive {
+  width: 188px;
+  height: 29px;
+}
+.type-005 .header header#lms_header .navbar-wrapper nav.navbar-fixed-top div#navbar ul.nav.navbar-nav li.active a {
+  font: 18px/20px 'BenchNine', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+  color: #fff;
+  font-style: normal;
+  text-transform: uppercase;
+  background: #FFC51D;
+}
+.type-005 .header header#lms_header .navbar-wrapper nav.navbar-fixed-top div#navbar ul.nav.navbar-nav li.dropdown a {
+  font: 18px/20px 'BenchNine', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+  color: #483601;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.type-005 .header header#lms_header .navbar-wrapper nav.navbar-fixed-top div#navbar ul.nav.navbar-nav li.dropdown a:hover {
+  background: #FFC51D;
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .type-005 .navbar-header .navbar-toggle {
+    margin: 0;
+    right: 5%;
+    background-color: #FFCD38;
+  }
+  .type-005 .navbar-header .navbar-toggle span.icon-bar {
+    background: #fff;
+  }
+  .type-005 .navbar-header .dropdown,
+  .type-005 .navbar-header .down {
+    width: fit-content;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .type-005 .navbar-header .navbar-toggle {
+    margin: 0;
+    right: 5%;
+    background-color: #FFCD38;
+  }
+  .type-005 .navbar-header .navbar-toggle span.icon-bar {
+    background: #fff;
+  }
+  .type-005 .navbar-header .navbar-nav .active {
+    width: 100%;
+  }
+  .type-005 .navbar-header .navbar-nav .dropdown,
+  .type-005 .navbar-header .navbar-nav .down {
+    width: fit-content;
+  }
+}

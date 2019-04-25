@@ -1,0 +1,134 @@
+/*Color*/
+@color_background: #FFFAE6;
+@color_white: #fff;
+@color_man: #FFC51D;
+@color_text: #483601;
+
+.type-005{
+    .header{
+        header#lms_header{
+            .navbar-wrapper{
+                nav.navbar-fixed-top{
+                    margin-top: 30px;
+                    div#navbar{
+                        background: @color_background;
+                        ul.nav.navbar-nav{
+                            width: 100%;
+                            display: inline-flex;
+                            justify-content: center;
+                            padding: 40px 0px;
+                            li.logo{
+                                padding: 10px 70px 0 0;
+                                img.img-responsive{
+                                    width: 188px;
+                                    height: 29px;
+                                }
+                            }
+                            li.active{
+                                a{
+                                    font: 18px/20px 'BenchNine', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+                                    color: #fff;
+                                    font-style: normal;
+                                    text-transform: uppercase;
+                                    background: @color_man;
+                                }
+                                /*a{
+                                    font: 18px/20px 'BenchNine', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+                                    color: #fff;
+                                    font-style: normal;
+                                    text-transform: uppercase;
+                                    background: #FFC51D;
+                                    position: absolute;
+                                    padding-top: 53px;
+                                    padding-left: 13px;
+                                    padding-right: 13px;
+                                    top: -40px;
+                                    left: 150px;
+                                }
+                                a:hover{
+                                    background: @color_man;
+                                }
+
+                                span.test-border{
+                                    border-bottom: 10px solid #E4AC0A;
+                                    border-left: 27px solid transparent;
+                                    border-right: 27px solid transparent;
+                                    height: 0px;
+                                    position: absolute;
+                                    padding-top: 60px;
+                                    padding-left: 13px;
+                                    padding-right: 13px;
+                                    top: -22px;
+                                    left: 150px;
+                                    }*/
+                                }
+                                li.dropdown{
+                                    a{
+                                        font: 18px/20px 'BenchNine', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+                                        color: @color_text;
+                                        font-style: normal;
+                                        text-transform: uppercase;
+                                    }
+                                    a:hover{
+                                        background: @color_man;
+                                        
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+        @media only screen and (min-width: 320px) and (max-width: 479px){
+            .navbar-header{
+                .navbar-toggle{
+                    margin: 0;
+                    right: 5%;
+                    background-color: #FFCD38;
+                    span.icon-bar{
+                        background: #fff;
+                    }
+                }
+                .dropdown, .down{
+                    width: fit-content;
+                }
+            }
+
+        }
+
+        @media only screen and (min-width: 480px) and (max-width: 767px){
+            .navbar-header{
+                .navbar-toggle{
+                    margin: 0;
+                    right: 5%;
+                    background-color: #FFCD38;
+                    span.icon-bar{
+                        background: #fff;
+                    }
+                }
+
+                .navbar-nav{
+                    .active{
+                        width: 100%;
+                    }
+
+                    .dropdown, .down{
+                        width: fit-content;
+                    }
+                }
+            }
+
+        }
+
+        @media only screen and (min-width: 768px) and (max-width: 991px){
+
+
+        }
+
+        @media only screen and (min-width: 992px){
+
+        }
+    }
